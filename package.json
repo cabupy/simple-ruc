@@ -1,7 +1,7 @@
 {
   "name": "simple-ruc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Download RUC's files from SET URL and generate SQL files to export to a table.",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"

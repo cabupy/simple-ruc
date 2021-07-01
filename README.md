@@ -16,7 +16,7 @@
 ## Install
 
 ```bash
-git clone git@github.com:cabupy/simple-ruc.git
+git clone https://github.com/cabupy/simple-ruc.git
 cd simple-ruc
 npm install
 node index.js
