@@ -1,0 +1,27 @@
+{
+  "name": "simple-ruc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:cabupy/simple-ruc.git"
+  },
+  "author": "Carlos Vallejos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cabupy/simple-ruc/issues"
+  },
+  "homepage": "https://github.com/cabupy/simple-ruc#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "axios": "^0.21.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+
+*.sql
+*.txt
+*.zip
