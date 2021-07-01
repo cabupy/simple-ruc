@@ -170,6 +170,7 @@ async function toSQL (file) {
     })
 
     await once(rl, 'close')
+    contentFile = contentFile.substring(0, contentFile.length-2) + ';\n'
     console.log(`Lectura del archivo ${_PATHTXT}/${file} concluida. Lineas: ${count}`)
     await ctrlFileExists(`${_PATHSQL}/${sqlFile}`)
     appendFileSync(`${_PATHSQL}/${sqlFile}`, contentFile, 'utf8')
