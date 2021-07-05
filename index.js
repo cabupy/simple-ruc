@@ -194,10 +194,14 @@ async function Main () {
       // Eliminamos los archivos txt y zip, dejamos solo .sql
       await ctrlFileExists(`${_PATHTXT}/${txtFile}`)
       await ctrlFileExists(`${_PATHZIP}/${zipFile}`)
-      await compressRUCS()
     } catch (error) {
       console.log(`Error en la funcion Main(). Mensaje: ${error.message}, ${error.stack}`)
     }
+  }
+  try {
+    await compressRUCS()
+  } catch (error) {
+      console.log(`Error en la funcion Main(). Mensaje: ${error.message}, ${error.stack}`)
   }
 }
 
