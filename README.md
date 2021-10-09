@@ -21,3 +21,7 @@ cd simple-ruc
 npm install
 node index.js
 ```
+
+### Autor
+
+- 
